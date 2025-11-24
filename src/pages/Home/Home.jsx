@@ -1,4 +1,5 @@
-import React from "react"; import "./Home.css"; import Navbar from "../../components/Navbar/Navbar.jsx"; import Slider from "../../components/slider/Slider.jsx"; // new slider import 
+import React from "react"; import "./Home.css"; import Navbar from "../../components/Navbar/Navbar.jsx"; 
+import Slider from '../../components/Slider/Slider.jsx'; // new slider import 
 import TitleCards from "../../components/TitleCards/TitleCards.jsx"; 
 import Footer from "../../components/Footer/Footer.jsx";
 
