@@ -1,12 +1,13 @@
 import React from "react"; import "./Home.css"; import Navbar from "../../components/Navbar/Navbar.jsx"; 
-import Slider from '../../components/Slider/Slider.jsx'; // new slider import 
+ // new slider import
+ import MovieSlider from '../../components/TitleCards/MovieSlider.jsx';
 import TitleCards from "../../components/TitleCards/TitleCards.jsx"; 
 import Footer from "../../components/Footer/Footer.jsx";
 
 const Home = () => { return ( <div className="home"> <Navbar />
 
 {/* Replaced hero section with Slider */}
-  <Slider />
+  <MovieSlider />
 
   <div className="more-cards">
     <div id="blockbusters">
