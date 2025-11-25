@@ -3,6 +3,7 @@ import "./Login.css"
 import logo from "../../assets/logo.png"
 import { login, signup } from '../../firebase'
 import netflix_spinner from "../../assets/netflix_spinner.gif"
+import {useNavigate} from 'react-router-dom'
 
 const Login = () => {
   const[signState, setSignState] = useState("Sign In")
@@ -11,12 +12,13 @@ const Login = () => {
   const[email, setEmail] = useState("")
   const[password, setPassword] = useState("")
   const[loading, setloading] = useState(false)
+  const navigate = useNavigate();
 
   const userAuth = async(e)=>{
     e.preventDefault()
     setloading(true)
     if(signState === "Sign In"){
-      await login(email, password)
+      await login(email, password,navigate)
     } else {
       await signup(name, email, password)
     }
