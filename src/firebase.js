@@ -41,9 +41,10 @@ const signup = async (name, email, password) => {
   }
 };
 
-const login = async (email, password) => {
+const login = async (email, password,navigate) => {
   try {
     await signInWithEmailAndPassword(auth, email, password);
+    navigate("/home");
   } catch (error) {
     console.log(error);
     toast.error(error.code.split("/")[1].split("-").join(" "));
