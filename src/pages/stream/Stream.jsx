@@ -32,7 +32,7 @@ const Stream = () => {
         <nav className="breadcrumb">Movies → {movie?.title}</nav>
 
         <section className="video-hero">
-          <iframe   className="video-el"></iframe>
+          <iframe  src={`https://vidlink.pro/movie/${movie?.id}`} className="video-el"></iframe>
         </section>
 
         <section className="info-card">
