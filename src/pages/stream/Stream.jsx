@@ -22,7 +22,7 @@ const Stream = () => {
       setSuggestions(recData.results || [])
     }
     load()
-  }, [])
+  }, [id])
 
   return (
     <div className="page-root">
