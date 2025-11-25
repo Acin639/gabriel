@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './Stream.css'
 const API_KEY = 'f43ec82a5f24fe6190891894b7436c7a';
-import {useParams} from 'react-router-dom';
+import {useNavigate,useParams} from 'react-router-dom';
 
 const Stream = () => {
   const {id} = useParams();
+  const navigate = useNavigate();
   const [movie, setMovie] = useState(null)
   const [cast, setCast] = useState([])
   const [suggestions, setSuggestions] = useState([])
@@ -31,9 +32,7 @@ const Stream = () => {
         <nav className="breadcrumb">Movies → {movie?.title}</nav>
 
         <section className="video-hero">
-          <video controls className="video-el">
-            <source src="/blackphone2.mp4" type="video/mp4" />
-          </video>
+          <iframe   className="video-el"></iframe>
         </section>
 
         <section className="info-card">
@@ -50,7 +49,7 @@ const Stream = () => {
         <div className="suggest-grid">
           {suggestions.map(s => (
             <div key={s.id} className="suggest-item">
-              <img src={`https://image.tmdb.org/t/p/w300${s.poster_path}`} />
+              <img src={`https://image.tmdb.org/t/p/w300${s.poster_path}`} onClick={()=>navigate(`/stream/${s.id}`)}/>
               <div className="s-title">{s.title}</div>
             </div>
           ))}
