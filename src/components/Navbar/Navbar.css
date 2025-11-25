@@ -1,5 +1,6 @@
 .navbar{
     width: 100%;
+    
     padding: 20px 6%;
     display: flex;
     justify-content: space-between;
@@ -17,9 +18,10 @@
     gap: 50px;
 }
 
-.navbar-left img{
-    width: 90px;
-    object-fit:cover;
+.navbar-left img {
+    height: 40px;      /* clean standard logo size */
+    width: auto;       /* keeps proportions */
+    object-fit: contain;
     cursor: pointer;
 }
 
