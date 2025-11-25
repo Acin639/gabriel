@@ -2,9 +2,9 @@
   width: 100%; /* 30% of screen */
   overflow: hidden;
   margin-top:100px;
-  padding-top:100px;
+  
   position: relative;
-  margin: auto;
+  
   height:40vh;
   
 }
