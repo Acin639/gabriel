@@ -20,7 +20,7 @@
 
 .navbar-left img {
     height: 40px;      /* clean standard logo size */
-    width: auto;       /* keeps proportions */
+    width: 60px;       /* keeps proportions */
     object-fit: contain;
     cursor: pointer;
 }
