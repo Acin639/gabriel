@@ -48,8 +48,8 @@ const Stream = () => {
         <h2 className="suggest-title">Suggestions</h2>
         <div className="suggest-grid">
           {suggestions.map(s => (
-            <div key={s.id} className="suggest-item">
-              <img src={`https://image.tmdb.org/t/p/w300${s.poster_path}`} onClick={()=>navigate(`/stream/${s.id}`)}/>
+            <div key={s.id} className="suggest-item" onClick={()=>navigate(`/stream/${s.id}`)}>
+              <img src={`https://image.tmdb.org/t/p/w300${s.poster_path}`} />
               <div className="s-title">{s.title}</div>
             </div>
           ))}
