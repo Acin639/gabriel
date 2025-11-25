@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./MovieSlider.css"; // we'll style separately
 
-const API_KEY = "YOUR_TMDB_API_KEY"; // replace with your TMDB API key
+const API_KEY = "f43ec82a5f24fe6190891894b7436c7a"; // replace with your TMDB API key
 const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
 
 const MovieSlider = () => {
