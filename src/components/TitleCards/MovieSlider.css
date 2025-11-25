@@ -35,20 +35,13 @@
   color: #fff;
   padding: 10px;
   height: 80px;
-  
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.movie-info p {
-  margin: 5px 0 0;
-  font-size: 0.85rem;
-  line-height: 1.2;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3; 
-  -webkit-box-orient: vertical;
+.movie-info p{
+  font-size:16px;
 }
 
 .dots {
