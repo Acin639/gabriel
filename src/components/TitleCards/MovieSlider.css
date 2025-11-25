@@ -1,8 +1,10 @@
 .slider-container {
-  width: 30vw; /* 30% of screen */
+  width: 100%; /* 30% of screen */
   overflow: hidden;
   position: relative;
   margin: auto;
+  height:30vh;
+  margin-top:50px;
 }
 
 .slides {
