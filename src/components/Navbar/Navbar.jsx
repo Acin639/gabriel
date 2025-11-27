@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div className='navbar' ref={navRef}>
       <div className="navbar-left">
-        <img src={logo} alt="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}/>
+        <H1 className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Lonestream</H1>
         <ul>
           <li onClick={() => scrollToSection("popular")}>Popular on Netflix</li>
         <li onClick={() => scrollToSection("blockbusters")}>Blockbuster Movies</li>
