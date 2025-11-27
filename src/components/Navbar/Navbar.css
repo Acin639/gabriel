@@ -28,6 +28,10 @@
 img{
     cursor: pointer;
 }
+.logo{
+    color:red;
+    
+}
 .navbar-left ul{
     display: flex;
     list-style: none;
