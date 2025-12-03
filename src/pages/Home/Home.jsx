@@ -32,10 +32,10 @@ const Home = () => { return ( <div className="home"> <Navbar />
       <TitleCards title="Latest" category="latest" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Top Pics for You" category="on_the_air" />
+      <TitleCards title="Top Pics for You" category="latest" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Top Pics for You" category="airing_today" />
+      <TitleCards title="Top Pics for You" category="latest" />
     </div>
     <div id="top-picks">
       <TitleCards title="Top Pics for You" category="now_playing" />
