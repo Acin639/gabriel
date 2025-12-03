@@ -22,6 +22,30 @@ const Home = () => { return ( <div className="home"> <Navbar />
     <div id="top-picks">
       <TitleCards title="Top Pics for You" category="now_playing" />
     </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
+    <div id="top-picks">
+      <TitleCards title="Top Pics for You" category="now_playing" />
+    </div>
   </div>
 
   <div id="footer">
