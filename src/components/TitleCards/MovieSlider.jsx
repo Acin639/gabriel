@@ -45,7 +45,7 @@ const MovieSlider = () => {
                 />
                 <div className="movie-info">
                   <h3>{movie.title}</h3>
-                  <p>{movie.overview}</p>
+                  <p></p
                 </div>
               </div>
             ))}
