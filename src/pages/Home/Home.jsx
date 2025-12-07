@@ -26,16 +26,16 @@ const Home = () => { return ( <div className="home"> <Navbar />
       <TitleCards title="Top Pics for You" category="now_playing" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Top Pics for You" category="latest" />
+      <TitleCards title="Top Pics for You" category="now_playing" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Latest" category="latest" />
+      <TitleCards title="Latest" category="now_playing" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Top Pics for You" category="latest" />
+      <TitleCards title="Top Pics for You" category="upcoming" />
     </div>
     <div id="top-picks">
-      <TitleCards title="Top Pics for You" category="latest" />
+      <TitleCards title="Top Pics for You" category="now_playing" />
     </div>
     <div id="top-picks">
       <TitleCards title="Top Pics for You" category="now_playing" />
